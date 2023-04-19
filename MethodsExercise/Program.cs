@@ -36,13 +36,13 @@
 
             Console.WriteLine($"There once was a {Color} {Animal} named {UserName}. {UserName} really wanted to go out for icecream \n" +
                 $"but couldnt because they dont know how far the nearest ice cream shop is. They typed it into their smartphone and to \n" +
-                $"surprise the nearest shop is {NumberInput} miles away!!! So {UserName} starts waliing. Eventually they decide an uber is better \n" +
+                $"surprise the nearest shop is {NumberInput} miles away!!! So {UserName} starts walking. Eventually they decide an uber is better \n" +
                 $"and they are so happy they buy the driver ice cream to. The End :)");
 
-            // Exercise 2
-            var Answer1 = Addition(2, 4);
-            var Answer2 = Multiply(3, 4, 5);
-            var Answer3 = Divide(10, 2);
+            // Exercise 2: Updated after feedback
+            Console.WriteLine(Addition(2, 4));
+            Console.WriteLine(Multiply(3, 4, 5));
+            Console.WriteLine(Divide(10, 2));
             
 
         }
